@@ -7,3 +7,13 @@ edition = "2021"
 
 [dependencies]
 sdl2 = "0.35.2"
+
+# Simulator library
+[lib]
+name = "smoky"
+path = "sim/sim.rs"
+
+# Graphical editor
+[[bin]]
+name = "smoky"
+path = "gui/main.rs"
